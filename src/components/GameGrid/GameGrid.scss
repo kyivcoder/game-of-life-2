@@ -1,0 +1,23 @@
+.game-grid {
+    margin: 20px auto;
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .column {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+
+        &_alive {
+            background-color: black;
+        }
+
+        &_dead {
+            background-color: white;
+        }
+    }
+}
